@@ -1,0 +1,22 @@
+# Local records, receipts, credentials and exports must stay private.
+*.db
+*.db-*
+*.db.*
+state.json
+state.json.*
+feishu_config.json
+.env
+.env.*
+!.env.example
+exports/
+invoices/
+media/
+*.log
+*.bak*
+.app.lock
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+.DS_Store
